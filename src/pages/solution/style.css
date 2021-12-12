@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.solution_1 {
+    background-color: #FFF2F2;
+    height: 50vh;
+}
+
+h1 {
+    color: black;
+    display: table;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+@media only screen and (min-width: 768px)and (max-width: 770px) {
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 180px;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 2560px)and (max-width: 2565px) {
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 50px;
+        padding-top: 300px;
+    }
+}
+
+/* }  */
+
+@media only screen and (min-width: 986px)and (max-width: 782px) {
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 300px;
+        padding-top: 300px;
+    }
+}
+
+.solution_2{
+    margin-top: 200px;
+}
+.solution_header{
+    font-size: 40px;
+}
+.solution_text{
+    font-size: 18px;
+}
+
+@media only screen and(max-width: 1440px) {
+    .solution_text {
+        font-size: 15px;
+    }
+}
+.line1{
+   margin-bottom: 50px;
+}
+.solution_2{
+
+}
+.solution_texts{
+    position: relative;
+    bottom: 130px;
+}
+.solution_2_text1{
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.line2{
+    display: flex;
+    justify-content: center;
+    margin-right: 150px;
+
+}
+.image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 350px;
+}
+.image_2{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 350px;
+  width: 100%;
+    height: auto;
+
+}
+
+.icon{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 60px;
+}
+.card{
+    width: 400px;
+}
+.card-text{
+    margin-top: 30px;
+}
+.card-deck{
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    bottom: 150px;
+}
+.card{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}

@@ -1,0 +1,174 @@
+html,body {
+    
+   margin: 0;
+   padding: 0;
+} 
+
+.aboutus_1{
+   
+background-color: #FFF2F2;
+height: 50vh;
+width: 100%;
+}
+h1{
+    color: black;
+    display: table;
+    display: flex;
+justify-content: center;
+padding-top: 200px;
+   
+}
+
+@media only screen and (min-width: 768px)and (max-width: 770px) {
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       position: relative;
+       left: 180px;
+       font-size: 40px;
+        
+    }
+}
+@media only screen and (min-width: 2560px)and (max-width: 2565px) {
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       position: relative;
+       left: 50px;
+       padding-top: 300px;
+        
+    }}
+/* }  */
+
+@media only screen and (min-width: 986px)and (max-width: 782px) {
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       position: relative;
+       right: 300px;
+       padding-top: 300px;
+        
+    }
+}
+.aboutus_2{
+    height: 100vh;
+    background-color: white;
+}
+.aboutus_2_content{
+    padding-top: 150px;
+}
+.text1{
+    font-size: 40px;
+
+}
+.text2{
+    font-size: 22px;
+}
+@media only screen and (min-width: 2560px)and (max-width: 2565px) {
+
+    .text1{
+       
+        font-size: 50px;
+        
+    }
+    .text2{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1024)and (max-width: 1025px) {
+
+    .aboutus_3{
+       position: relative;
+       top: 200px;        
+    }
+}
+/* 1024 */
+.aboutus_3{
+    height: 100vh;
+    background-color: white;
+}
+.aboutus_3_content{
+    padding-top: 200px;
+}
+@media only screen and (min-width: 1024px)and (max-width: 1025px) {
+
+    .aboutus_3_content{
+        padding-top: 270px;
+
+}
+}
+
+@media only screen and (min-width: 425px)and (max-width: 426px) {
+
+    .aboutus_3_content{
+
+position: relative;
+top: 400px;
+}
+}
+@media only screen and (min-width: 375px)and (max-width: 376px) {
+
+    .aboutus_3_content{
+
+position: relative;
+top: 500px;
+}
+}
+@media only screen and (min-width: 320px)and (max-width: 321px) {
+
+    .aboutus_3_content{
+
+position: relative;
+top: 900px;
+}
+}
+@media only screen and (min-width: 375px)and (max-width: 376px) {
+
+    .aboutus_3_content{
+
+position: relative;
+top: 800px;
+}
+}
+.aboutus_3_text{
+    font-size: 40px;
+}
+@media only screen and (min-width: 2560px)and (max-width: 2565px) {
+
+    .aboutus_3_text{
+       
+        font-size: 50px;
+        
+    }
+   
+}
+/* 320 */
+
+ 
+/* h1{
+    color: white;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUs_page2{
+    height: 150vh;
+}
+.about{
+    padding-top: 200px;
+}
+.line{
+    position: relative;
+    top: 500px;
+}
+h2{
+    position: relative;
+    bottom: 300px;
+} */

@@ -1,0 +1,274 @@
+body {
+    overflow-x: hidden;
+}
+
+.homepage_1 {
+    width: 100%;
+    height: fit-content;
+    background: #FFF2F2;
+}
+
+.homepage_left_item1 {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* padding: auto; */
+    margin-top: 90px;
+    text-align: justify;
+    position: relative;
+    /* margin-left: -40px; */
+}
+
+.top_header {
+    position: relative;
+    margin-left: -60px;
+}
+
+@media only screen and (max-width: 600px) {
+    /*Big smartphones [426px -> 600px]*/
+    .image_banner {
+        height: 100%;
+        position: relative;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px]*/
+}
+
+.homepage_left_button1 {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #ED3237;
+    color: #fff;
+    height: fit-content;
+    width: auto;
+}
+
+.homepage_left_text {
+    padding-left: 35px;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.homepage_left_item1Text1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-family: Exo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.homepage_left_item1Text2 {
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.homepage_left_item1Text3 {
+    font-size: 24px;
+}
+
+.homepage_left_item2 {
+    position: relative;
+    bottom: 20px;
+}
+
+/* className="homepage_left_button mr-3 my-3" */
+
+.homepage_left_item3 {
+    margin-top: 0%;
+}
+
+.homepage_left_button {
+    border-radius: 10px;
+    width: 250px;
+    padding: 8px;
+    background-color: #ED3237;
+    color: white;
+    font-size: 20px;
+}
+
+.homepage_left_button:hover {
+    border-radius: 10px;
+    width: 250px;
+    padding: 8px;
+    background-color: #fff;
+    color: #ED3237;
+    font-size: 20px;
+}
+
+.homepage_left_button_learn {
+    border-radius: 10px;
+    border: #ED3237 solid 2px;
+    width: 250px;
+    padding: 8px;
+    background-color: #fff;
+    color: #ED3237;
+    font-size: 20px;
+}
+
+.homepage_left_button_learn:hover {
+    border-radius: 10px;
+    /* border:#ED3237 solid 2px; */
+    width: 250px;
+    padding: 8px;
+    background-color: #ED3237;
+    color: #fff;
+    font-size: 20px;
+}
+
+.line {
+    position: relative;
+    left: 550px;
+    top: 30px;
+}
+
+.line2 {
+    position: relative;
+    top: 5px;
+    left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: auto;
+}
+
+.image_banner {
+    height: 100%;
+    position: relative;
+    right: -39%;
+}
+
+.map {
+    position: relative;
+    margin-left: -45%;
+    height: auto;
+    width: 120%;
+}
+
+.homepage_2 {
+    width: 100%;
+    height: fit-content;
+    background: white;
+}
+
+.homepage_2_img {
+    padding: 100px;
+}
+
+.homepage_2_text {
+    padding: 100px;
+}
+
+.second_level_text {}
+
+.homepage_3 {
+    width: 100%;
+    height: 100vh;
+    background: #FFF2F2;
+}
+
+.homepage_3_header {
+    font-size: 45px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_level_header {
+    font-size: 45px;
+}
+
+.second_level_header_text_one {
+    font-size: 20px;
+}
+
+.cardElement {
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    position: relative;
+    top: 100px;
+}
+
+.homepage_4 {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+
+.defaulters {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    bottom: 180px;
+}
+
+.homepage_5 {
+    width: 100%;
+    height: 65vh;
+    background: #FFF2F2;
+}
+
+.lender {
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+
+.customer {
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+
+.business {
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+
+h2 {
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.cardElement_Text {
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+.homepage_4_text {
+    font-size: 55px;
+    z-index: 1;
+    position: relative;
+    top: 250px;
+    left: 150px;
+    color: white;
+}
+
+.homepage_5_text {
+    font-size: 45px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line3 {
+    position: relative;
+    left: 880px;
+    right: 30px;
+    top: 30px;
+bottom: 10px;
+}

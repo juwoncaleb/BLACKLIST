@@ -1,0 +1,11 @@
+.logo{
+    position: relative;
+    left: 20px;
+    right: 500px;
+    padding-left: 200px;
+}
+.navlink{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+
+}
